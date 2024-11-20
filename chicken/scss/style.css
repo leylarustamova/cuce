@@ -1,0 +1,24 @@
+@charset "UTF-8";
+#pink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #F9A074;
+}
+
+.egg-container {
+  position: relative;
+}
+
+.egg {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.egg:active {
+  transform: scale(0.95); /* Klik edəndə bir az kiçilsin */
+}/*# sourceMappingURL=style.css.map */
